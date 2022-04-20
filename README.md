@@ -13,9 +13,19 @@ In 2020 Zambia's debt was estimated at 128.7% of GDP ([source](https://countryec
 
 
 # Global Knowledge Graph Data
-
+ Global Database of Events, Language, and Tone (GDELT) aims to capture what's happening in the world and the data is available on [Google Cloud Platform](https://cloud.google.com/bigquery). In this analysis, the Global Knowledge Graph Data (GKG) was used, a full description of the dataset can be found [here.](http://data.gdeltproject.org/documentation/GDELT-Global_Knowledge_Graph_Codebook-V2.1.pdf)
 
 # Average Tone Time-Series 
 
 
 # Average Tone President Comparison: Hakainde Hichilema Vs Edgar Lungu
+
+
+# NLP Topic Modelling within the Economic Debt GDELT Category
+
+
+# Conclusions
+
+# Credits
+
+
