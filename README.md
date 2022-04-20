@@ -11,7 +11,12 @@ Please see Full Notebook for analysis: [Notebook](https://github.com/SitwalaM/nl
 
 In 2020 Zambia's debt was estimated at 128.7% of GDP ([source](https://countryeconomy.com/national-debt/zambia)). The debt had increased from 25% of GDP in 2012 to 94% of GDP in 2019 ([IMF Global Debt Database](https://www.imf.org/external/datamapper/datasets/GDD)). This poses a huge risk to the country's growth potential, this analysis seeks to find out if the change in governance has an effect on the sentiment towards the country's debt.  
 
-[Add images on debt situation here]
+<div align="center">
+  
+<img src="https://github.com/SitwalaM/nlp-topic-modelling/blob/develop/images/system.png" width="450">
+  
+</div>
+
 
 # Global Knowledge Graph Dataset
  Global Database of Events, Language, and Tone (GDELT) aims to capture what's happening in the world and the data is available on [Google Cloud Platform](https://cloud.google.com/bigquery). In this analysis, the Global Knowledge Graph Data (GKG) was used, a full description of the dataset can be found [here.](http://data.gdeltproject.org/documentation/GDELT-Global_Knowledge_Graph_Codebook-V2.1.pdf). The following columns were used for the dataset,
