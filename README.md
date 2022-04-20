@@ -39,6 +39,7 @@ In 2020 Zambia's debt was estimated at 128.7% of GDP ([source](https://countryec
 
 ![word cloud](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/word_cloud.png)
 ![topic words](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/topic_words.PNG)
+![topic distribution](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/topics_dist.png)
 
 # Conclusions
 
