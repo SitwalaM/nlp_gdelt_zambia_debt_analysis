@@ -35,13 +35,25 @@ In 2020 Zambia's debt was estimated at 128.7% of GDP ([source](https://countryec
 
 ![Presidents Tone](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/tone_dist_presidents.png)
 
-# NLP Topic Modelling within the Economic Debt GDELT Category
+# NLP Topic Modelling within the Economic Debt Theme Category
 
 ![word cloud](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/word_cloud.png)
 ![topic words](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/topic_words.PNG)
 
 # Conclusions
 
-# Credits
+1. Has the sentiment towards economic debt changed for the better considering a change of government in August 2021?
+
+No significant change has been noticed, in fact in April 2022 the sentiment was the lowest it has been for a while.
+
+2. Is there a clear difference in the tone in the mentions for the two presidents?
+
+No siginificant difference is observed between Edgar Lungu and Hakainde Hichilema in the data, however, Edgar Lungu does show more records with a very low sentiment.
+
+## Future Work
+
+The next step will be to use the data as a signal for forecasting models in conjuction with an outlier detection algorithm which picks out extreme tones in the dataset.
+
+
 
 
