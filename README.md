@@ -3,7 +3,10 @@
 The aim of the analysis is to answer the following questions by considering data from 1st January 2021 to 17th April 2022
 
 1. Has the sentiment towards economic debt changed for the better considering a change of government in August 2021?
-2. Is there a clear difference in the tone in the mentions for the two presidents ?
+2. Is there a clear difference in the tone in the mentions for the two presidents?
+3. Can we identify different topics within the “ECON_DEBT” Theme in GDELT data and what effect do they have on sentiment?
+
+
 
 Please see Full Notebook for analysis: [Notebook](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/notebooks/main_gdelt_zambia.ipynb)
 
@@ -13,13 +16,15 @@ In 2020 Zambia's debt was estimated at 128.7% of GDP ([source](https://countryec
 
 <div align="center">
   
-<img src="https://github.com/SitwalaM/nlp-topic-modelling/blob/develop/images/system.png" width="450">
+<img src="https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/bar_graph_debt.png" width="450">
   
 </div>
 
 
 # Global Knowledge Graph Dataset
  Global Database of Events, Language, and Tone (GDELT) aims to capture what's happening in the world and the data is available on [Google Cloud Platform](https://cloud.google.com/bigquery). In this analysis, the Global Knowledge Graph Data (GKG) was used, a full description of the dataset can be found [here.](http://data.gdeltproject.org/documentation/GDELT-Global_Knowledge_Graph_Codebook-V2.1.pdf). The following columns were used for the dataset,
+ 
+ <div align="center">
  
  | Field | Description |
 |---|---|
@@ -29,7 +34,9 @@ In 2020 Zambia's debt was estimated at 128.7% of GDP ([source](https://countryec
 | V2Tone | Provides, the average tone, positive tone, negative tone and polarity |
 | Persons | Persons mentioned in the text. (Used to filter out the two presidents) |
 | V2Themes | Different themes are available, list can be found [here](http://data.gdeltproject.org/api/v2/guides/LOOKUP-GKGTHEMES.TXT). "ECON_DEBT" was used for this analysis|
-
+  
+</div>
+  
 # Average Tone Time-Series 
 
 ![tone-box-plots](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/tone_boxplots.png)
@@ -38,13 +45,22 @@ In 2020 Zambia's debt was estimated at 128.7% of GDP ([source](https://countryec
 
 # Average Tone President Comparison: Hakainde Hichilema Vs Edgar Lungu
 
-![Presidents Tone](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/tone_dist_presidents.png)
+<div align="center">
+  
+<img src="https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/tone_dist_presidents.png" width="450">
+  
+</div>
+
 
 # NLP Topic Modelling within the Economic Debt Theme Category
 
-![word cloud](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/word_cloud.png)
 ![topic words](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/topic_words.PNG)
-![topic distribution](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/topics_dist.png)
+
+<div align="center">
+  
+<img src="https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/topics_dist.png" width="400">
+  
+</div>
 
 # Conclusions
 
@@ -55,6 +71,8 @@ No significant change has been noticed, in fact in April 2022 the sentiment was 
 2. Is there a clear difference in the tone in the mentions for the two presidents?
 
 No siginificant difference is observed between Edgar Lungu and Hakainde Hichilema in the data, however, Edgar Lungu does show more records with a very low sentiment.
+
+3. Two topics identified within the "econ_debt" theme. Topic 1 tone has less variance than topic 0.
 
 ## Future Work
 
