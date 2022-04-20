@@ -9,8 +9,7 @@ The aim of the analysis is to answer the following questions by considering data
 
 In 2020 Zambia's debt was estimated at 128.7% of GDP ([source](https://countryeconomy.com/national-debt/zambia)). The debt had increased from 25% of GDP in 2012 to 94% of GDP in 2019 ([IMF Global Debt Database](https://www.imf.org/external/datamapper/datasets/GDD)). This poses a huge risk to the country's growth potential, this analysis seeks to find out if the change in governance has an effect on the sentiment towards the country's debt.  
 
-[Insert the Graphs on the debt situation here]
-
+[Add images on debt situation here]
 
 # Global Knowledge Graph Dataset
  Global Database of Events, Language, and Tone (GDELT) aims to capture what's happening in the world and the data is available on [Google Cloud Platform](https://cloud.google.com/bigquery). In this analysis, the Global Knowledge Graph Data (GKG) was used, a full description of the dataset can be found [here.](http://data.gdeltproject.org/documentation/GDELT-Global_Knowledge_Graph_Codebook-V2.1.pdf). The following columns were used for the dataset,
@@ -26,9 +25,13 @@ In 2020 Zambia's debt was estimated at 128.7% of GDP ([source](https://countryec
 
 # Average Tone Time-Series 
 
+![tone-box-plots](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/tone_boxplots.png)
+![tone-time-series](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/tone_time_rolling.png)
+
 
 # Average Tone President Comparison: Hakainde Hichilema Vs Edgar Lungu
 
+![Presidents Tone](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/tone_dist_presidents.png)
 
 # NLP Topic Modelling within the Economic Debt GDELT Category
 
