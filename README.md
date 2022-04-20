@@ -5,6 +5,8 @@ The aim of the analysis is to answer the following questions by considering data
 1. Has the sentiment towards economic debt changed for the better considering a change of government in August 2021?
 2. Is there a clear difference in the tone in the mentions for the two presidents ?
 
+Please see Full Notebook for analysis: [Notebook](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/notebooks/main_gdelt_zambia.ipynb)
+
 ## Some Context on the Debt Situations
 
 In 2020 Zambia's debt was estimated at 128.7% of GDP ([source](https://countryeconomy.com/national-debt/zambia)). The debt had increased from 25% of GDP in 2012 to 94% of GDP in 2019 ([IMF Global Debt Database](https://www.imf.org/external/datamapper/datasets/GDD)). This poses a huge risk to the country's growth potential, this analysis seeks to find out if the change in governance has an effect on the sentiment towards the country's debt.  
@@ -36,6 +38,7 @@ In 2020 Zambia's debt was estimated at 128.7% of GDP ([source](https://countryec
 # NLP Topic Modelling within the Economic Debt GDELT Category
 
 ![word cloud](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/word_cloud.png)
+![topic words](https://github.com/SitwalaM/nlp_gdelt_zambia_debt_analysis/blob/main/images/topic_words.PNG)
 
 # Conclusions
 
